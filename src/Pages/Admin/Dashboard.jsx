@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import api from '../../services/api';
 import toast from 'react-hot-toast';
 import GenderChart from "../../Components/Charts/GenderChart";
-import TrendsChart from '../../components/Charts/TrendsChart';
-import ProgramsChart from '../../components/Charts/ProgramsChart';
-import RegionsChart from '../../components/Charts/RegionsChart';
+import TrendsChart from '../../Components/Charts/TrendsChart';
+import ProgramsChart from '../../Components/Charts/ProgramsChart';
+import RegionsChart from '../../Components/Charts/RegionsChart';
 import StatusChart from '../../Components/Charts/StatusChart';
 
 export default function AdminDashboard() {
