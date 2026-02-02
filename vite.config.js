@@ -16,12 +16,13 @@ export default defineConfig({
     build: {
         outDir: 'dist',
         emptyOutDir: true,
-        manifest: true,
-        rollupOptions: {
-            input: {
-                app: path.resolve(__dirname, './src/app.jsx'),
-            },
-        },
+        // Supprimez ou commentez ces lignes qui causent le problème :
+        // manifest: true,
+        // rollupOptions: {
+        //     input: {
+        //         app: path.resolve(__dirname, './src/app.jsx'),
+        //     },
+        // },
     },
     server: {
         port: 5173,
@@ -44,4 +45,3 @@ export default defineConfig({
         },
     },
 });
-
