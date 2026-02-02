@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import api from '../services/api';
 import toast from 'react-hot-toast';
 
+
 export default function DocumentDownload({ enrollmentId, type = 'enrollment', label = 'Télécharger' }) {
     const { i18n } = useTranslation();
     const [loading, setLoading] = useState(false);

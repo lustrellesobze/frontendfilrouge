@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { fetchEnrollments } from '../../store/slices/enrollmentSlice';
-import DocumentDownload from '../../components/DocumentDownload';
-
+import DocumentDownload from '../../Components/DocumentDownload';
 export default function EnrollmentsList() {
     const { t, i18n } = useTranslation();
     const dispatch = useDispatch();
