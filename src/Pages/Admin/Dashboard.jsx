@@ -3,11 +3,11 @@ import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import api from '../../services/api';
 import toast from 'react-hot-toast';
-import StatusChart from '../../components/Charts/StatusChart';
 import GenderChart from '../../components/Charts/GenderChart';
 import TrendsChart from '../../components/Charts/TrendsChart';
 import ProgramsChart from '../../components/Charts/ProgramsChart';
 import RegionsChart from '../../components/Charts/RegionsChart';
+import StatusChart from '../../Components/Charts/StatusChart';
 
 export default function AdminDashboard() {
     const navigate = useNavigate();

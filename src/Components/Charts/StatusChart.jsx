@@ -51,3 +51,4 @@ const StatusChart = ({ data }) => {
 };
 
 export default StatusChart;
+// src/Components/Charts/StatusChart.jsx
