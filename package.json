@@ -1,0 +1,33 @@
+{
+  "name": "sgee-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.11.0",
+    "i18next": "^23.16.8",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "^13.5.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.1",
+    "recharts": "^3.6.0",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^7.0.7"
+  }
+}
